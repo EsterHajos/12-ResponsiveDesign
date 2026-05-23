@@ -1,6 +1,18 @@
+body {
 
+margin: 0;
 
+}
 
+/* Desktop */
+
+.navigation-text {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 40px 80px;
+}
 
 .logo-text {
     font-family: "Aldrich", sans-serif;
@@ -15,8 +27,7 @@
     font-size: 16px;
     line-height: 22.4px;
     color: #242635;
-
-
+    gap: 40px;
 }
 
 h1 {
@@ -27,6 +38,7 @@ font-size: 90px;
 line-height: 102px;
 letter-spacing: 2px;
 color: #242635;
+margin-bottom: 20px;
 }
 
 p {
@@ -35,3 +47,76 @@ font-size: 22px;
 line-height: 33px;
 color: #242635;
 }
+
+.pic {
+
+
+}
+
+
+/* Tablet */ 
+
+@media (max-width: 768px) {
+
+    .logo-text {
+    font-family: ""Baloo 2", sans-serif;
+    font-size: 24;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #242635;
+}
+
+h1 {
+
+font-family: "Poppins", sans-serif;
+font-weight: medium;
+font-size: 72px;
+line-height: 82px;
+letter-spacing: 1,6px;
+color: #242635;
+margin-bottom: 15px;
+}
+
+
+}
+
+
+/* Mobile */ 
+
+@media (max-width: 530px) {
+
+    .logo-text {
+    font-family: ""Baloo 2", sans-serif;
+    font-size: 24;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #242635;
+}
+
+.navigation-text {
+
+    /* add image */
+}
+
+
+h1 {
+
+font-family: "Poppins", sans-serif;
+font-weight: medium;
+font-size: 36px;
+line-height: 39px;
+letter-spacing: 0,8px;
+color: #242635;
+margin-bottom: 10px;
+}
+
+p {
+font-family: "Source Sans 3", sans-serif;
+font-size: 12px;
+line-height: 18px;
+color: #242635;
+}
+
+
+}
+

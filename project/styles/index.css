@@ -69,6 +69,14 @@ display: block;
 
 @media (max-width: 768px) {
 
+    .navigation {
+        padding: 30px 40px;
+    }
+
+    .hero {
+        padding: 30px 40px;
+    }
+
     .logo-text {
     font-family: ""Baloo 2", sans-serif;
     font-size: 24;

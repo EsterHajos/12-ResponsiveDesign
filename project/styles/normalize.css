@@ -1,0 +1,82 @@
+/* =========================
+   RESET / NORMALIZE
+========================= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   BASE
+========================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+/* =========================
+   MEDIA
+========================= */
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* =========================
+   FORMS
+========================= */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    overflow-wrap: break-word;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* =========================
+   LISTS
+========================= */
+
+ul,
+ol {
+    list-style: none;
+}

@@ -11,11 +11,15 @@ background: white;
 }
 
 /* Desktop */
-.navigation-text { 
+.navigation { 
     display: flex; 
+    align-items: flex-end;
     justify-content: space-between; 
-    align-items: center;  
-    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 200px;
+
+
 }
 
 .logo-text { 
@@ -28,10 +32,16 @@ background: white;
     
     
     .navigation-text { 
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
         font-family: "Source Sans 3", sans-serif; 
         font-size: 16px; line-height: 22.4px; 
         color: #242635; 
-        gap: 40px; }
+        gap: 40px; 
+
+    }
 
 .hero {
     padding: 40px 80px;
